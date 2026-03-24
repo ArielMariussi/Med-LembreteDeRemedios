@@ -1,0 +1,19 @@
+﻿@page "/medicines/create"
+@inherits CreatePage
+
+
+<MudText Typo="Typo.h5">Novo Medicamento</MudText>
+
+<EditForm Model="this" OnValidSubmit="HandleCreate">
+    <DataAnnotationsValidator/>
+
+    <MudTextField Label="Nome" @bind-Value="Name" Required="true" />
+
+    <MudTimePicker Label="Horário" @bind-Time="Time" />
+
+    <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled">
+        Salvar
+    </MudButton>
+
+
+</EditForm>

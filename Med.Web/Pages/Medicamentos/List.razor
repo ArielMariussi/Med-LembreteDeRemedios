@@ -1,0 +1,48 @@
+﻿@page "/medicines"
+@inherits ListPage
+
+@inject NavigationManager Nav
+
+<MudText Typo="Typo.h4">Medicamentos</MudText>
+
+@if (SelectedMedicine != null)
+{
+    <MudPaper Class="pa-4 mb-4" Style="background-color:#e3f2fd">
+        <MudText Typo="Typo.h6">@SelectedMedicine.Name</MudText>
+        <MudText>Horário: @SelectedMedicine.Time</MudText>
+    </MudPaper>
+}
+
+<MudTable Items="Medicines"
+          T="Medicine"
+          Hover="true"
+          RowStyleFunc="@RowStyle"
+          OnRowClick="@((args) => GoToMedicine(args.Item.Id))">
+
+    <HeaderContent>
+        <MudTh Style="width:25%">Nome</MudTh>
+        <MudTh Style="width:25%">Horário</MudTh>
+        <MudTh Style="width:25%">Tomado</MudTh>
+        <MudTh Style="width:25%">Ações</MudTh>
+    </HeaderContent>
+
+    <RowTemplate>
+        <MudTd DataLabel="Nome">@context.Name</MudTd>
+        <MudTd DataLabel="Horário">@context.Time</MudTd>
+        <MudTd DataLabel="Tomado">
+            <MudButton Variant="Variant.Filled"
+                       Color="@(context.Taken ? Color.Success : Color.Warning)"
+                       OnClick="@(() => ToggleTaken(context))">
+
+                @(context.Taken ? "Tomado" : "Pendente")
+
+            </MudButton></MudTd>
+        <MudTd DataLabel="Ações">
+            <MudButton Variant="Variant.Text"
+                       Color="Color.Error"
+                       OnClick="@(() => Delete(context.Id))">
+                Excluir
+            </MudButton>
+        </MudTd>
+    </RowTemplate>
+</MudTable>

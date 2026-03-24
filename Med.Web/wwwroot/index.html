@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Med - Medicines </title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="Med.Web.styles.css" rel="stylesheet" />
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script>
+
+        window.requestNotificationPermission = async () => {
+            if ("Notification" in window && Notification.permission === "default") {
+                await Notification.requestPermission();
+            }
+        };
+        window.showMedicineNotification = (name, time) => {
+
+            if (Notification.permission === "granted") {
+                new Notification("💊 Hora do remédio!", {
+                    body: `Está na hora de tomar: ${name} (${time})`,
+                    icon: "/favicon.png"
+                });
+            }
+
+            const ctx = new AudioContext();
+            const oscillator = ctx.createOscillator();
+            const gainNode = ctx.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(ctx.destination);
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(880, ctx.currentTime);
+            oscillator.frequency.setValueAtTime(660, ctx.currentTime + 0.15);
+            gainNode.gain.setValueAtTime(0.5, ctx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+            oscillator.start(ctx.currentTime);
+            oscillator.stop(ctx.currentTime + 0.4);
+        };
+    </script>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+
+
+</body>
+
+</html>

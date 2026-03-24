@@ -1,0 +1,6 @@
+﻿namespace Med.Api;
+
+public class ApiConfiguration
+{
+    public  const string CorsPolicyName = "wasm";
+}

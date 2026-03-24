@@ -1,0 +1,35 @@
+﻿@inherits LayoutComponentBase
+
+
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<AuthorizeView>
+    <Authorized>
+        <MudLayout>
+            <MudAppBar Color="Color.Primary">
+                <MudIconButton Icon="@Icons.Material.Outlined.Menu"
+                               Color="Color.Inherit"
+                               Edge="Edge.Start"
+                               OnClick="ToggleDrawer" />
+                <MudText Typo="Typo.h6">💊 MedReminder</MudText>
+                <MudSpacer />
+                <MudText Typo="Typo.caption" Style="font-size: 1.2rem;">
+                    @context.User.Identity?.Name
+                </MudText>
+            </MudAppBar>
+            <MudDrawer @bind-Open="_isDrawerOpened">
+                <NavMenu />
+            </MudDrawer>
+            <MudMainContent>
+                <MudContainer>
+                    @Body
+                </MudContainer>
+            </MudMainContent>
+        </MudLayout>
+    </Authorized>
+    <NotAuthorized>
+        <LoginRedirect />
+    </NotAuthorized>
+</AuthorizeView>

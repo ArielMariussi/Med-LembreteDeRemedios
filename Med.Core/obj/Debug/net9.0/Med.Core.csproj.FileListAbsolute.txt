@@ -1,0 +1,11 @@
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\bin\Debug\net9.0\Med.Core.deps.json
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\bin\Debug\net9.0\Med.Core.dll
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\bin\Debug\net9.0\Med.Core.pdb
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.AssemblyInfoInputs.cache
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.AssemblyInfo.cs
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.csproj.CoreCompileInputs.cache
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.dll
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\refint\Med.Core.dll
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.pdb
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\ref\Med.Core.dll
