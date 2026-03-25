@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\DockerFile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:DockerFile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DockerFile",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\DockerFile",
+              "RelativeDocumentMoniker": "DockerFile",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\DockerFile",
+              "RelativeToolTip": "DockerFile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-25T17:26:05.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Med.Web\\Pages\\Home.razor",
               "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Home.razor",
               "RelativeToolTip": "Med.Web\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-24T18:23:39.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Med.Web\\Layout\\MainLayout.razor",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Med.Web\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T18:23:03.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T18:23:03.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainLayout.razor.cs",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Layout\\MainLayout.razor.cs",
               "RelativeDocumentMoniker": "Med.Web\\Layout\\MainLayout.razor.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "Med.Web\\Layout\\MainLayout.razor.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:21:00.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T18:21:00.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "List.razor",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Medicamentos\\List.razor",
               "RelativeDocumentMoniker": "Med.Web\\Pages\\Medicamentos\\List.razor",
@@ -93,12 +108,11 @@
               "RelativeToolTip": "Med.Web\\Pages\\Medicamentos\\List.razor",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T18:20:34.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T18:20:34.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ResetMedicinesService.cs",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Api\\Services\\ResetMedicinesService.cs",
               "RelativeDocumentMoniker": "Med.Api\\Services\\ResetMedicinesService.cs",
@@ -106,12 +120,11 @@
               "RelativeToolTip": "Med.Api\\Services\\ResetMedicinesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:00:33.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T18:00:33.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MedicineHandler.cs",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Api\\Handlers\\MedicineHandler.cs",
               "RelativeDocumentMoniker": "Med.Api\\Handlers\\MedicineHandler.cs",
@@ -119,8 +132,7 @@
               "RelativeToolTip": "Med.Api\\Handlers\\MedicineHandler.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwFMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T17:57:44.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T17:57:44.237Z"
             }
           ]
         }

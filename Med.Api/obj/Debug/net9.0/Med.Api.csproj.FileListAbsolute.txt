@@ -138,3 +138,4 @@ D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Api\obj
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Api\obj\Debug\net9.0\Med.Api.pdb
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Api\obj\Debug\net9.0\Med.Api.genruntimeconfig.cache
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Api\obj\Debug\net9.0\ref\Med.Api.dll
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Api\obj\Debug\net9.0\Med.Api.sourcelink.json

@@ -9,3 +9,4 @@ D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\ob
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\refint\Med.Core.dll
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.pdb
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\ref\Med.Core.dll
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Core\obj\Debug\net9.0\Med.Core.sourcelink.json

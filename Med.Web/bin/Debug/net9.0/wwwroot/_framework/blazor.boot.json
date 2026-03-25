@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Med.Web",
   "resources": {
-    "hash": "sha256-ojaWm4rvdgJhLIllKbF+fc8g4tZCDhC/nyPvy8OQEuE=",
+    "hash": "sha256-3v/hIrTsFL1i9Ot0U7gDVuvneXQwTUKgIrEPmKqaMII=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.9taw8vfmpb.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.kr0rm7hoa3.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -210,10 +210,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Med.Core.jxxvirm9m7.wasm": "Med.Core.wasm",
-      "Med.Core.n1uqzdpc9w.pdb": "Med.Core.pdb",
-      "Med.Web.gopzdss30d.wasm": "Med.Web.wasm",
-      "Med.Web.nn4xrkryw3.pdb": "Med.Web.pdb"
+      "Med.Core.rpubpgw38e.wasm": "Med.Core.wasm",
+      "Med.Core.8gulhrtn91.pdb": "Med.Core.pdb",
+      "Med.Web.34stv3vdav.wasm": "Med.Web.wasm",
+      "Med.Web.wp4ynwbgrg.pdb": "Med.Web.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.noby4tlk4d.js": "sha256-p9eEzXhQIsI0a5bBJhfzW15iRafgplTxT8XrO5FiH9o="
@@ -432,12 +432,12 @@
       "WindowsBase.i7qip04bb5.wasm": "sha256-Lg5W8BM50Cpl1dgTrG9RQOrBRKOJq6H1t5sH3yf4KDU=",
       "mscorlib.ijjuvl21w4.wasm": "sha256-ku4DyQX7IfTdwPwDlrz9odvCs4mrgsJl0fNaqY56KOI=",
       "netstandard.jgp13znru0.wasm": "sha256-I7arRnyxWh5PItslQKjzLIG7EpohJACm7p/7K8eD0YA=",
-      "Med.Core.jxxvirm9m7.wasm": "sha256-eQSPhKTWGgC6WVnJd8xKYJKrS+v4xGdS2hShkBmL2gc=",
-      "Med.Web.gopzdss30d.wasm": "sha256-wAnliSYRHRlgxummYvA/EFofxFvMjlorQlVC65lSbeI="
+      "Med.Core.rpubpgw38e.wasm": "sha256-PylQiIX8Y5VV+9y5AMOku3Ae3eC0Ssf25uP/bD06Jxo=",
+      "Med.Web.34stv3vdav.wasm": "sha256-bTGOR3bNZYOYnGRxhgWDLDFpsMxVR8+C4SdtB6kThEY="
     },
     "pdb": {
-      "Med.Core.n1uqzdpc9w.pdb": "sha256-Zf4k2O5hJlu/7gVcEON8jSea6Vif6aLJb6ASN+vB95k=",
-      "Med.Web.nn4xrkryw3.pdb": "sha256-LW8I0QsSdSX6r43jT0ywZWyFJ2XQTdVhbvoWRxNCZFc="
+      "Med.Core.8gulhrtn91.pdb": "sha256-mOUDuMzJ296RIAMM5OcbnUNNrmxO/Wy6KqqAh+oOLfs=",
+      "Med.Web.wp4ynwbgrg.pdb": "sha256-ZPOec/fzMFUg7FzUAPv6uZl4NNR3pS8zmtT9npHyr14="
     }
   },
   "cacheBootResources": true,
