@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DockerFile",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\DockerFile",
-              "RelativeDocumentMoniker": "DockerFile",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\DockerFile",
-              "RelativeToolTip": "DockerFile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-03-25T17:26:05.73Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Med.Web\\Pages\\Home.razor",
               "ViewState": "AgIAACcAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T18:23:39.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T18:23:39.772Z"
             },
             {
               "$type": "Document",
