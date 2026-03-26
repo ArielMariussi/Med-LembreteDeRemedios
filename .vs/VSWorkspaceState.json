@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Med.Web",
+    "\\Med.Web\\release",
+    "\\Med.Web\\release\\release",
+    "\\Med.Web\\release\\release\\release",
+    "\\Med.Web\\release\\release\\release\\wwwroot",
+    "\\Med.Web\\release\\release\\wwwroot",
+    "\\Med.Web\\release\\release\\wwwroot\\_framework",
+    "\\Med.Web\\release\\wwwroot"
+  ],
+  "SelectedNode": "\\Med.Web\\release\\wwwroot\\vercel.json",
+  "PreviewInSolutionExplorer": false
+}
