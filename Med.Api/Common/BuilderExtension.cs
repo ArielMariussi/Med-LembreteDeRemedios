@@ -41,12 +41,17 @@ public static class BuilderExtension
         x.UseNpgsql(Configuration.ConnectionString);
     });
 
-        builder.Services.AddIdentityCore<IdentityUser<long>>()
+        builder.Services.AddIdentityCore<IdentityUser<long>>(
+            options =>
+            {
+                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedAccount = false;
+            })
             .AddRoles<IdentityRole<long>>()
             .AddEntityFrameworkStores<AppDbContext>()
             .AddApiEndpoints();
-
     }
+    
 
     public static void AddServices(this WebApplicationBuilder builder)
     {
