@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "Med.Web",
   "resources": {
-    "hash": "sha256-ae3SWAv/bF/RL+48NkwTcknd+qYYuZ7REioiW2fRdPA=",
+    "hash": "sha256-P1qulivjShzJo6cjMImi92ziQpTBzbO4avoulry74LI=",
     "fingerprinting": {
-      "Med.Core.hz6meg83e0.wasm": "Med.Core.wasm",
-      "Med.Web.tfro5hyxii.wasm": "Med.Web.wasm",
+      "Med.Core.ctkmjun7i2.wasm": "Med.Core.wasm",
+      "Med.Web.v3qilryjgr.wasm": "Med.Web.wasm",
       "Microsoft.AspNetCore.Authorization.u6lnmruuq7.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.Authorization.folrutlo22.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
       "Microsoft.AspNetCore.Components.Forms.lf56ws6x0k.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -86,8 +86,8 @@
       "System.Runtime.InteropServices.JavaScript.u9tzo6t7zm.wasm": "sha256-8v7jVijrzRlaTmvdds4+ZNyPL5DYfnYnzFYT2HtkqwM="
     },
     "assembly": {
-      "Med.Core.hz6meg83e0.wasm": "sha256-3RqCKAIw7i4fRS+yTqL9iRCKM0+0PtL1nOBuDnUQWuY=",
-      "Med.Web.tfro5hyxii.wasm": "sha256-F/Yo7qeGs17A0X/yb6xtaaaWPwdRCaVb0BblNtoxUPY=",
+      "Med.Core.ctkmjun7i2.wasm": "sha256-IJIx+ECfU5rvwFltiEyqKp/fB858QtIN9hselRGd/bs=",
+      "Med.Web.v3qilryjgr.wasm": "sha256-VUpuUd1dZteKsMT1b9dMt7Bs8xlRNTh01ecQnbV5TBY=",
       "Microsoft.AspNetCore.Authorization.u6lnmruuq7.wasm": "sha256-+rJG/aczWIL494GbbvbXA4Ck4UrjGPjLk3RUoh0SQQk=",
       "Microsoft.AspNetCore.Components.Authorization.folrutlo22.wasm": "sha256-f2hFCmrc3moU95MqerQQO+dVtUI+PUP7PCjGbnAIENQ=",
       "Microsoft.AspNetCore.Components.Forms.lf56ws6x0k.wasm": "sha256-ARHzGe6+jMp1G7pga/C+T5kLX1cmCyItlaHRr/qFI0g=",
