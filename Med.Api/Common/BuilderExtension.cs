@@ -74,7 +74,8 @@ public static class BuilderExtension
                 policy => policy
                 .WithOrigins([
                     Configuration.BackendUrl,
-                Configuration.FrontendUrl])
+                Configuration.FrontendUrl,
+                "https://med-lembrete-de-remedios.vercel.app"])
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials()

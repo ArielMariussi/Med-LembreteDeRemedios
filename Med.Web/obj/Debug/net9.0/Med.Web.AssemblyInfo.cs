@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Med.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b6a9d085bf32d896050cf1dc512486e0d2d05b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de2bb25a18dec82e944bece13bb5ea1695ef4018")]
 [assembly: System.Reflection.AssemblyProductAttribute("Med.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Med.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
