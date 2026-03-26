@@ -1,5 +1,8 @@
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\web.config
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\Med.Web.staticwebassets.endpoints.json
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\release\Med.Web.staticwebassets.endpoints.json
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\release\wwwroot\appsettings.json
+D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\release\wwwroot\_framework\blazor.boot.json
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\wwwroot\appsettings.json
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\release\wwwroot\_framework\blazor.boot.json
 D:\Ariel\Balta.io\Projetos\Projeto - Lembrete de Medicamentos (FULL)\Med.Web\release\web.config
