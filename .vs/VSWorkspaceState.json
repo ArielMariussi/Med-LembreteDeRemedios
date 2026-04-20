@@ -2,9 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Med.Api",
-    "\\Med.Api\\Common",
-    "\\Med.Web"
+    "\\Med.Api\\Data",
+    "\\Med.Api\\Endpoints",
+    "\\Med.Api\\Handlers",
+    "\\Med.Core",
+    "\\Med.Core\\Requests",
+    "\\Med.Core\\Requests\\Account",
+    "\\Med.Core\\Requests\\Medicines",
+    "\\Med.Core\\Responses"
   ],
-  "SelectedNode": "\\Med.Api\\Common\\BuilderExtension.cs",
+  "SelectedNode": "\\Med.Core\\Requests\\Medicines\\GetMedicineByIdRequest.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,61 @@
+name: CI/CD - Med Lembrete de Remedios
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  build-and-deploy-api:
+    name: Build e Deploy API (Render)
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+ 
+      - name: Instala .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+ 
+      - name: Restaura dependências
+        run: dotnet restore
+ 
+      - name: Compila o projeto
+        run: dotnet build --configuration Release --no-restore
+ 
+      - name: Publica a API
+        run: dotnet publish Med.Api/Med.Api.csproj -c Release -o ./publish/api
+ 
+      - name: Faz deploy no Render
+        run: |
+          curl -X POST "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys" \
+          -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+          -H "Content-Type: application/json" \
+          -d '{"clearCache": false}'
+ 
+  build-and-deploy-web:
+    name: Build e Deploy Frontend (Vercel)
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+ 
+      - name: Instala .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+ 
+      - name: Restaura dependências
+        run: dotnet restore
+ 
+      - name: Publica o Frontend
+        run: dotnet publish Med.Web/Med.Web.csproj -c Release -o ./publish/web
+ 
+      - name: Instala Vercel CLI
+        run: npm install -g vercel
+ 
+      - name: Faz deploy no Vercel
+        run: vercel --prod --token=${{ secrets.VERCEL_TOKEN }} ./publish/web/wwwroot

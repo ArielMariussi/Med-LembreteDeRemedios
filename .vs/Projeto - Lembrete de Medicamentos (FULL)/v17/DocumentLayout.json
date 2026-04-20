@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Api\\Common\\BuilderExtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Med.Api\\Common\\BuilderExtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B95371F-91DF-48CA-83B5-F64420B3B1AB}|NewFolder1{1B95371F-91DF-48CA-83B5-F64420B3B1AB}|D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1B95371F-91DF-48CA-83B5-F64420B3B1AB}|NewFolder1{1B95371F-91DF-48CA-83B5-F64420B3B1AB}|solutionrelative:deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\medicamentos\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\medicamentos\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\medicamentos\\list.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\medicamentos\\list.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.razor",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Medicamentos\\List.razor",
+              "RelativeDocumentMoniker": "Med.Web\\Pages\\Medicamentos\\List.razor",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Medicamentos\\List.razor",
+              "RelativeToolTip": "Med.Web\\Pages\\Medicamentos\\List.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T19:37:30.083Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "deploy.yml",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\deploy.yml",
+              "RelativeDocumentMoniker": "deploy.yml",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\deploy.yml",
+              "RelativeToolTip": "deploy.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-20T22:58:21.858Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -26,16 +61,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BuilderExtension.cs",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Api\\Common\\BuilderExtension.cs",
-              "RelativeDocumentMoniker": "Med.Api\\Common\\BuilderExtension.cs",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Api\\Common\\BuilderExtension.cs",
-              "RelativeToolTip": "Med.Api\\Common\\BuilderExtension.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwEQAAABIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "List.razor.cs",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Medicamentos\\List.razor.cs",
+              "RelativeDocumentMoniker": "Med.Web\\Pages\\Medicamentos\\List.razor.cs",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Medicamentos\\List.razor.cs",
+              "RelativeToolTip": "Med.Web\\Pages\\Medicamentos\\List.razor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T18:00:59.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T19:38:02.017Z"
             }
           ]
         }

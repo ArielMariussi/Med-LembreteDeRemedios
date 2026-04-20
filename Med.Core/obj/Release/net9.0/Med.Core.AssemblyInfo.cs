@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Med.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b60f06167f2bbaca6a520073269a1a6cd2e0d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+925548fdba6414fe9e6eba45c4a6407efc2f1693")]
 [assembly: System.Reflection.AssemblyProductAttribute("Med.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Med.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
