@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\handlers\\accounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94FE36F1-876A-4166-83F4-C541531EB9BC}|Med.Core\\Med.Core.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.core\\handlers\\iaccounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94FE36F1-876A-4166-83F4-C541531EB9BC}|Med.Core\\Med.Core.csproj|solutionrelative:med.core\\handlers\\iaccounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\identity\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\identity\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43286C1F-7C29-4F35-9ED9-3A571C7A78D6}|Med.Api\\Med.Api.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.api\\common\\builderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43286C1F-7C29-4F35-9ED9-3A571C7A78D6}|Med.Api\\Med.Api.csproj|solutionrelative:med.api\\common\\builderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\identity\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\identity\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\identity\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\identity\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,15 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAccountHandler.cs",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Core\\Handlers\\IAccountHandler.cs",
-              "RelativeDocumentMoniker": "Med.Core\\Handlers\\IAccountHandler.cs",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Core\\Handlers\\IAccountHandler.cs",
-              "RelativeToolTip": "Med.Core\\Handlers\\IAccountHandler.cs",
+              "DocumentIndex": 3,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Logout.razor",
+              "RelativeDocumentMoniker": "Med.Web\\Pages\\Identity\\Logout.razor",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Logout.razor",
+              "RelativeToolTip": "Med.Web\\Pages\\Identity\\Logout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T21:58:07.727Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T22:06:34.622Z",
               "EditorCaption": ""
             },
             {
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "Med.Api\\Common\\BuilderExtension.cs",
               "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Api\\Common\\BuilderExtension.cs",
               "RelativeToolTip": "Med.Api\\Common\\BuilderExtension.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T21:50:31.538Z",
               "EditorCaption": ""
@@ -70,22 +70,23 @@
               "RelativeDocumentMoniker": "Med.Web\\Handlers\\AccountHandler.cs",
               "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Handlers\\AccountHandler.cs",
               "RelativeToolTip": "Med.Web\\Handlers\\AccountHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T21:33:40.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Logout.razor.cs",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Logout.razor.cs",
               "RelativeDocumentMoniker": "Med.Web\\Pages\\Identity\\Logout.razor.cs",
               "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Logout.razor.cs",
               "RelativeToolTip": "Med.Web\\Pages\\Identity\\Logout.razor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T20:36:48.716Z"
+              "WhenOpened": "2026-04-23T20:36:48.716Z",
+              "EditorCaption": ""
             }
           ]
         }

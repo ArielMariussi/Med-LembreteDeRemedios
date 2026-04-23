@@ -35,8 +35,6 @@ public static class BuilderExtension
         {
             options.Cookie.SameSite = SameSiteMode.None;
             options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-            options.Cookie.HttpOnly = true;
-            options.Cookie.Name = ".AspNetCore.Identity.Application";
         });
 
         builder.Services.AddAuthorization();
