@@ -20,8 +20,13 @@ public class AccountHandler(IHttpClientFactory httpClientFactory) : IAccountHand
 
     public async Task LogoutAsync()
     {
+        //var emptyContent = new StringContent("{}", Encoding.UTF8, "application/json");
+        //await _client.PostAsync("v1/identity/signout", emptyContent);
+
+        Console.WriteLine("=== CHAMANDO SIGNOUT ===");
         var emptyContent = new StringContent("{}", Encoding.UTF8, "application/json");
-        await _client.PostAsync("v1/identity/signout", emptyContent);
+        var response = await _client.PostAsync("v1/identity/signout", emptyContent);
+        Console.WriteLine($"=== SIGNOUT STATUS: {response.StatusCode} ===");
 
     }
 

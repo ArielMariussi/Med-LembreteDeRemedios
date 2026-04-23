@@ -41,8 +41,18 @@ public class MedicineHandler(IHttpClientFactory httpClientFactory) : IMedicineHa
 
     public async  Task<Response<IEnumerable<Medicine>>> GetByUserAsync(GetMedicinesByUserRequest request)
     {
-        return await _client.GetFromJsonAsync<Response<IEnumerable<Medicine>>>($"v1/medicines/user")
-             ?? Response<IEnumerable<Medicine>>.Fail("Erro ao buscar medicamentos");
+        try
+        {
+            var response = await _client.GetAsync("v1/medicines/user");
+            if (!response.IsSuccessStatusCode)
+                return Response<IEnumerable<Medicine>>.Fail("Não autorizado");
+            return await response.Content.ReadFromJsonAsync<Response<IEnumerable<Medicine>>>()
+                   ?? Response<IEnumerable<Medicine>>.Fail("Erro ao carregar");
+        }
+        catch
+        {
+            return Response<IEnumerable<Medicine>>.Fail("Erro ao carregar medicamentos");
+        }
     }
 
     public async  Task<Response<Medicine>> MarkAsTakenAsync(MarkMedicineAsTakenRequest request)

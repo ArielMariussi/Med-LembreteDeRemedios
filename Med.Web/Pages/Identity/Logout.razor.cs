@@ -27,17 +27,29 @@ public partial class LogoutPage : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
+        //try
+        //{
+        //    await Handler.LogoutAsync();
+        //    AuthenticationStateProvider.NotifyAuthenticationStateChanged();
+        //}
+        //catch { }
+
+        //NavigationManager.NavigateTo("/login", forceLoad: true);
+        //await base.OnInitializedAsync();
+
+        Console.WriteLine("=== LOGOUT PAGE INICIANDO ===");
         try
         {
             await Handler.LogoutAsync();
-        }
-        catch { }
-        finally
-        {
             AuthenticationStateProvider.NotifyAuthenticationStateChanged();
-            NavigationManager.NavigateTo("/login", forceLoad: true);
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"=== ERRO LOGOUT: {ex.Message} ===");
+        }
+        NavigationManager.NavigateTo("/login", forceLoad: true);
         await base.OnInitializedAsync();
+
     }
 
     #endregion
