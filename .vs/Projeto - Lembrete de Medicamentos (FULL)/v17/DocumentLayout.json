@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\security\\cookieauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\security\\cookieauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\identity\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\identity\\logout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\components\\identity\\loginredirect.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\components\\identity\\loginredirect.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\pages\\identity\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\pages\\identity\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\components\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\components\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|d:\\ariel\\balta.io\\projetos\\projeto - lembrete de medicamentos (full)\\med.web\\handlers\\accounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389231D8-2966-4C2F-8107-43DA94FB5731}|Med.Web\\Med.Web.csproj|solutionrelative:med.web\\handlers\\accounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,62 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CookieAuthenticationStateProvider.cs",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Security\\CookieAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "Med.Web\\Security\\CookieAuthenticationStateProvider.cs",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Security\\CookieAuthenticationStateProvider.cs",
-              "RelativeToolTip": "Med.Web\\Security\\CookieAuthenticationStateProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAPAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AccountHandler.cs",
+              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Handlers\\AccountHandler.cs",
+              "RelativeDocumentMoniker": "Med.Web\\Handlers\\AccountHandler.cs",
+              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Handlers\\AccountHandler.cs",
+              "RelativeToolTip": "Med.Web\\Handlers\\AccountHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T20:54:39.779Z",
+              "WhenOpened": "2026-04-23T21:33:40.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Components\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Med.Web\\Components\\NavMenu.razor",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Components\\NavMenu.razor",
-              "RelativeToolTip": "Med.Web\\Components\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T20:43:55.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.razor",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Login.razor",
-              "RelativeDocumentMoniker": "Med.Web\\Pages\\Identity\\Login.razor",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Login.razor",
-              "RelativeToolTip": "Med.Web\\Pages\\Identity\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T20:39:33.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginRedirect.razor",
-              "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Components\\Identity\\LoginRedirect.razor",
-              "RelativeDocumentMoniker": "Med.Web\\Components\\Identity\\LoginRedirect.razor",
-              "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Components\\Identity\\LoginRedirect.razor",
-              "RelativeToolTip": "Med.Web\\Components\\Identity\\LoginRedirect.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T20:38:14.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Logout.razor.cs",
               "DocumentMoniker": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Logout.razor.cs",
               "RelativeDocumentMoniker": "Med.Web\\Pages\\Identity\\Logout.razor.cs",
               "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Pages\\Identity\\Logout.razor.cs",
               "RelativeToolTip": "Med.Web\\Pages\\Identity\\Logout.razor.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T20:36:48.716Z",
               "EditorCaption": ""
