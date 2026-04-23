@@ -27,7 +27,7 @@ public static class Endpoint
 
         endpoints.MapGroup("v1/identity")
           .WithTags("Identity")
-          .MapPost("/logout", async (
+          .MapPost("/signout", async (
           SignInManager<IdentityUser<long>> signInManager,
           UserManager<IdentityUser<long>> s) =>
           {

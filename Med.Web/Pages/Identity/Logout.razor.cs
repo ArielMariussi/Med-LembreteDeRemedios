@@ -32,6 +32,7 @@ public partial class LogoutPage : ComponentBase
             await Handler.LogoutAsync();
             await AuthenticationStateProvider.GetAuthenticationStateAsync();
             AuthenticationStateProvider.NotifyAuthenticationStateChanged();
+            NavigationManager.NavigateTo("/", forceLoad: true);
         }
 
         await base.OnInitializedAsync();
