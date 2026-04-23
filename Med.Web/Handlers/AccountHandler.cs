@@ -11,7 +11,7 @@ public class AccountHandler(IHttpClientFactory httpClientFactory) : IAccountHand
     private readonly HttpClient _client = httpClientFactory.CreateClient(Configuration.HttpClientName);
     public async Task<Response<string>> LoginAsync(LoginRequest request)
     {
-        var result = await _client.PostAsJsonAsync("v1/identity/login?useCookies=true", request);
+        var result = await _client.PostAsJsonAsync("v1/identity/login?useCookies=true&useSessionCookies=true", request);
         if (!result.IsSuccessStatusCode)
             return Response<string>.Fail("Usuario ou senha invalidos");
 
