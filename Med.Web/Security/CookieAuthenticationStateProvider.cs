@@ -47,8 +47,10 @@ namespace Med.Web.Security
         {
             try
             {
-                return await _client.GetFromJsonAsync<User?>("v1/identity/manage/info");
-
+                var response = await _client.GetAsync("v1/identity/manage/info");
+                if (!response.IsSuccessStatusCode)
+                    return null; 
+                return await response.Content.ReadFromJsonAsync<User?>();
             }
             catch
             {

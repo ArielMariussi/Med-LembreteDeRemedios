@@ -27,14 +27,16 @@ public partial class LogoutPage : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
-        if (await AuthenticationStateProvider.CheckAuthenticatedAsync())
+        try
         {
             await Handler.LogoutAsync();
-            await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        }
+        catch { }
+        finally
+        {
             AuthenticationStateProvider.NotifyAuthenticationStateChanged();
             NavigationManager.NavigateTo("/login", forceLoad: true);
         }
-
         await base.OnInitializedAsync();
     }
 
