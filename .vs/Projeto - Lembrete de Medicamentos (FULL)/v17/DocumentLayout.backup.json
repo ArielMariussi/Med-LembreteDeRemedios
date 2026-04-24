@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Med.Web\\wwwroot\\service-worker.published.js",
               "ToolTip": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\wwwroot\\service-worker.published.js",
               "RelativeToolTip": "Med.Web\\wwwroot\\service-worker.published.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-04-24T01:14:36.504Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Med.Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T01:12:45.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T01:12:45.005Z"
             }
           ]
         }

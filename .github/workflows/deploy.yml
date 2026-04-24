@@ -51,6 +51,9 @@ jobs:
       - name: Restaura dependências
         run: dotnet restore
  
+      - name: Limpa cache dotnet
+        run: dotnet nuget locals all --clear
+
       - name: Publica o Frontend
         run: dotnet publish Med.Web/Med.Web.csproj -c Release -o ./publish/web
  
