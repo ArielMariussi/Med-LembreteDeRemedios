@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Med.Core.Handlers;
 using Med.Web.Handlers;
 
-
+// Build: 2026-04-23-v4
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
 Configuration.BackendUrl = builder.Configuration.GetValue<string>("BackendUrl") ?? string.Empty;
