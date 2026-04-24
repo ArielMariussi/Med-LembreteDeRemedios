@@ -1,3 +1,4 @@
+// Cache version: 2024-04-23-v3
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
