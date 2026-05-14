@@ -44,7 +44,7 @@ A API está hospedada no plano gratuito do Render. A primeira visita pode levar 
 - **Render** — hospedagem da Web API
 - **Vercel** — hospedagem do frontend Blazor WASM
 - **GitHub** — versionamento
-```
+
 
 ## Deploy
 
