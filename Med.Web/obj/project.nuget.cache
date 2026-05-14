@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pPIqp7kqulk=",
+  "dgSpecHash": "wV+Wa3XFVOU=",
   "success": true,
   "projectFilePath": "D:\\Ariel\\Balta.io\\Projetos\\Projeto - Lembrete de Medicamentos (FULL)\\Med.Web\\Med.Web.csproj",
   "expectedPackageFiles": [
@@ -36,10 +36,9 @@
     "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.13\\microsoft.extensions.primitives.9.0.13.nupkg.sha512",
     "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.jsinterop\\9.0.13\\microsoft.jsinterop.9.0.13.nupkg.sha512",
     "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.11\\microsoft.jsinterop.webassembly.9.0.11.nupkg.sha512",
-    "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.11\\microsoft.net.illink.tasks.9.0.11.nupkg.sha512",
-    "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.11\\microsoft.net.sdk.webassembly.pack.9.0.11.nupkg.sha512",
-    "C:\\Users\\Ariel\\.nuget\\packages\\mudblazor\\9.0.0\\mudblazor.9.0.0.nupkg.sha512",
-    "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.11.nupkg.sha512"
+    "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.16\\microsoft.net.illink.tasks.9.0.16.nupkg.sha512",
+    "C:\\Users\\Ariel\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.16\\microsoft.net.sdk.webassembly.pack.9.0.16.nupkg.sha512",
+    "C:\\Users\\Ariel\\.nuget\\packages\\mudblazor\\9.0.0\\mudblazor.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }
