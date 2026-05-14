@@ -44,8 +44,6 @@ A API está hospedada no plano gratuito do Render. A primeira visita pode levar 
 - **Render** — hospedagem da Web API
 - **Vercel** — hospedagem do frontend Blazor WASM
 - **GitHub** — versionamento
-
-
 ```
 
 ## Deploy
@@ -55,10 +53,12 @@ O deploy é totalmente automatizado via **GitHub Actions**. A cada push na branc
 - **Build e Deploy API (Render)** — faz build do backend, publica a imagem Docker e aciona o deploy no Render. As migrations do EF Core são aplicadas automaticamente no startup da aplicação.
 - **Build e Deploy Frontend (Vercel)** — faz build do projeto Blazor WebAssembly e publica os arquivos estáticos na Vercel.
 
+
+
 ## Autor
 
 Ariel Mariussi
 
-- Porfolio: **[https://portfolio-ariel-cyan.vercel.app/]**
+- Porfolio: **https://portfolio-ariel-cyan.vercel.app/**
 - GitHub: **[@ArielMariussi](https://github.com/ArielMariussi)**
 - Email: **[arielmariussi@gmail.com](mailto:arielmariussi@gmail.com)**
