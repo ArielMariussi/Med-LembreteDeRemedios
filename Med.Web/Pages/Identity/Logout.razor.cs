@@ -27,18 +27,17 @@ public partial class LogoutPage : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
-        try
+        // NotifyAuthenticationStateChanged faz o AuthorizeRouteView descartar e
+        // recriar esta pagina, ou seja, OnInitializedAsync roda de novo. So nao
+        // vira loop porque na segunda passada o cookie ja foi apagado e
+        // CheckAuthenticatedAsync retorna false.
+        if (await AuthenticationStateProvider.CheckAuthenticatedAsync())
         {
             await Handler.LogoutAsync();
             AuthenticationStateProvider.NotifyAuthenticationStateChanged();
         }
-        catch { }
 
-        NavigationManager.NavigateTo("/login", forceLoad: true);
         await base.OnInitializedAsync();
-
-
-
     }
 
     #endregion

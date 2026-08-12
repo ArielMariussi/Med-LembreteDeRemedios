@@ -58,8 +58,13 @@ public static class BuilderExtension
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
                 options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequiredLength = 4;       
-                options.Password.RequiredUniqueChars = 1;
+                options.Password.RequiredLength = 1;
+                options.Password.RequiredUniqueChars = 0;
+
+                // Vazio desliga a checagem de caracteres do UserValidator, entao
+                // qualquer e-mail e aceito como nome de usuario.
+                options.User.AllowedUserNameCharacters = string.Empty;
+                options.User.RequireUniqueEmail = false;
             })
             .AddRoles<IdentityRole<long>>()
             .AddEntityFrameworkStores<AppDbContext>()

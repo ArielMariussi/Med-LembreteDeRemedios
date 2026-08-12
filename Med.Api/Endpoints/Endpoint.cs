@@ -24,17 +24,20 @@ public static class Endpoint
    .WithTags("Identity")
    .MapIdentityApi<IdentityUser<long>>();
 
-
         endpoints.MapGroup("v1/identity")
           .WithTags("Identity")
-          .MapPost("/signout", async (
-          SignInManager<IdentityUser<long>> signInManager,
-          UserManager<IdentityUser<long>> s) =>
-          {
-              await signInManager.SignOutAsync();
-              return Results.Ok();
-          })
-          .RequireAuthorization();
+          .MapEndpoint<LogoutEndpoint>();
+
+        //endpoints.MapGroup("v1/identity")
+        //  .WithTags("Identity")
+        //  .MapPost("/signout", async (
+        //  SignInManager<IdentityUser<long>> signInManager,
+        //  UserManager<IdentityUser<long>> s) =>
+        //  {
+        //      await signInManager.SignOutAsync();
+        //      return Results.Ok();
+        //  })
+        //  .RequireAuthorization();
 
     }
 
