@@ -61,4 +61,9 @@ jobs:
         run: npm install -g vercel
  
       - name: Faz deploy no Vercel
+        env:
+          # Sem estes dois, a CLI nao sabe em qual projeto publicar e cria um
+          # novo a partir do nome da pasta (wwwroot), que ninguem acessa.
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
         run: vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }} ./publish/web/wwwroot
