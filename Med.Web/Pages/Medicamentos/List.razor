@@ -1,8 +1,6 @@
 ﻿@page "/medicines"
 @inherits ListPage
 
-@inject NavigationManager Nav
-
 <MudText Typo="Typo.h4">Medicamentos</MudText>
 
 @if (SelectedMedicine != null)
@@ -17,7 +15,7 @@
           T="Medicine"
           Hover="true"
           RowStyleFunc="@RowStyle"
-          OnRowClick="@((args) => GoToMedicine(args.Item.Id))">
+          OnRowClick="@((args) => args.Item is null ? Task.CompletedTask : GoToMedicine(args.Item.Id))">
 
     <HeaderContent>
         <MudTh Style="width:25%">Nome</MudTh>

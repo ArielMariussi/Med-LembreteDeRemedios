@@ -28,7 +28,7 @@ public partial class HomePage : ComponentBase
     public async Task LoadMedicines()
     {
         var result = await Handler.GetByUserAsync(new());
-        if (result.IsSuccess)
+        if (result.IsSuccess && result.Data != null)
             Medicines = result.Data.ToList();
         StateHasChanged();
     }

@@ -63,7 +63,7 @@ public partial class MainLayout : LayoutComponentBase, IAsyncDisposable
     private async Task LoadMedicines()
     {
         var result = await Handler.GetByUserAsync(new());
-        if (result.IsSuccess)
+        if (result.IsSuccess && result.Data != null)
             _medicines = result.Data.ToList();
     }
 

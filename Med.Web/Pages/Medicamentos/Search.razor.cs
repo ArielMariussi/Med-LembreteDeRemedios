@@ -21,7 +21,7 @@ namespace Med.Web.Pages.Medicamentos
             var result = await Handler.SearchByNameAsync(
                 new SearchMedicineByNameRequest { Name = SearchTerm });
 
-            if (result.IsSuccess)
+            if (result.IsSuccess && result.Data != null)
                 Medicines = result.Data.ToList();
 
             _searched = true;
