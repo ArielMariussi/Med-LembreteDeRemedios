@@ -39,6 +39,9 @@
                 await Notification.requestPermission();
             }
         };
+        window.getNotificationPermission = () => {
+            return "Notification" in window ? Notification.permission : "unsupported";
+        };
         window.showMedicineNotification = (name, time) => {
 
             if (Notification.permission === "granted") {

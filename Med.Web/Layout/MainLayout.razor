@@ -15,6 +15,14 @@
                                OnClick="ToggleDrawer" />
                 <MudText Typo="Typo.h6">💊 MedReminder</MudText>
                 <MudSpacer />
+                @if (ShowEnableNotificationsButton)
+                {
+                    <MudTooltip Text="Ativar notificações do navegador">
+                        <MudIconButton Icon="@Icons.Material.Outlined.NotificationsOff"
+                                       Color="Color.Inherit"
+                                       OnClick="EnableNotifications" />
+                    </MudTooltip>
+                }
                 <MudText Typo="Typo.caption" Style="font-size: 1.2rem;">
                     @context.User.Identity?.Name
                 </MudText>
