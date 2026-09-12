@@ -54,6 +54,7 @@ public partial class MainLayout : LayoutComponentBase, IAsyncDisposable
 
     private void StartNotificationTimer()
     {
+        _notificationTimer?.Dispose();
         _notificationTimer = new Timer(async _ =>
         {
             await CheckAndNotify();
