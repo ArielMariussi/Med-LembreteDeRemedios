@@ -30,7 +30,6 @@ public partial class MainLayout : LayoutComponentBase, IAsyncDisposable
             await JS.InvokeVoidAsync("requestNotificationPermission");
             _notificationPermission = await JS.InvokeAsync<string>("getNotificationPermission");
             StateHasChanged();
-            await LoadMedicines();
             StartNotificationTimer();
         }
     }
@@ -63,6 +62,8 @@ public partial class MainLayout : LayoutComponentBase, IAsyncDisposable
 
     private async Task CheckAndNotify()
     {
+        await LoadMedicines();
+
         var now = TimeOnly.FromDateTime(DateTime.Now);
         foreach (var med in _medicines)
         {

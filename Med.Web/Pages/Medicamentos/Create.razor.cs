@@ -36,7 +36,7 @@ public partial class CreatePage : ComponentBase
             if (result.IsSuccess)
             {
                 Console.WriteLine("SUCESSO");
-                Nav.NavigateTo("/medicines", true);
+                Nav.NavigateTo("/medicines");
             }
             else
             {
