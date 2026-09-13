@@ -42,13 +42,23 @@
         window.getNotificationPermission = () => {
             return "Notification" in window ? Notification.permission : "unsupported";
         };
-        window.showMedicineNotification = (name, time) => {
+        window.showMedicineNotification = async (name, time) => {
 
             if (Notification.permission === "granted") {
-                new Notification("💊 Hora do remédio!", {
+                const options = {
                     body: `Está na hora de tomar: ${name} (${time})`,
                     icon: "/favicon.png"
-                });
+                };
+                try {
+                    if (navigator.serviceWorker) {
+                        const registration = await navigator.serviceWorker.ready;
+                        await registration.showNotification("💊 Hora do remédio!", options);
+                    } else {
+                        new Notification("💊 Hora do remédio!", options);
+                    }
+                } catch (err) {
+                    console.error("Falha ao exibir notificação:", err);
+                }
             }
 
             const ctx = new AudioContext();
